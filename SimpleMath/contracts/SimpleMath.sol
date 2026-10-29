@@ -7,14 +7,14 @@ contract SimpleMath {
   }
 
   function subtract(uint x, uint y ) public pure returns (uint) {
-    return 0;
+    return x - y;
   }
 
   function multiply(uint x, uint y ) public pure returns (uint) {
-    return 0;
+    return x * y;
   }
 
   function divide(uint x, uint y ) public pure returns (uint) {
-    return 0;
+    return x / y;
   }
 }
